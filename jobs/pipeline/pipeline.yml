@@ -38,7 +38,7 @@ jobs:
       model: 
     code: src/train
     environment: azureml:AzureML-sklearn-1.0-ubuntu20.04-py38-cpu@latest
-    compute: azureml:c002
+    compute: azureml:c001
     command: >-
       python train.py 
       --train_data ${{inputs.train_data}} 
